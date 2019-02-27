@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
  * Note: For less headache, use hamcrest-all-1.3.jar.
  * More benefits to use hamcrest, see
  *  http://www.objectpartners.com/2013/09/18/the-benefits-of-using-assertthat-over-other-assert-methods-in-unit-tests/
- * @author Xuan Ngo
  *
  */
 public class HamcrestInTestNG
