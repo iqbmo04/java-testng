@@ -5,10 +5,6 @@ import static org.hamcrest.Matchers.containsString;
 
 import org.testng.annotations.Test;
 
-/**
- * Show how to use hamcrest with TestNG.
- * Note: For less headache, use hamcrest-all-1.3.jar.
- */
 public class HamcrestInTestNG
 {
   @Test
