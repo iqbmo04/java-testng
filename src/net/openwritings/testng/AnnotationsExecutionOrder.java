@@ -1,22 +1,5 @@
 package net.openwritings.testng;
 
-/**
- * AnnotationsExecutionOrder.java
- * Show execution order of commonly used annotations of TestNG
- * @author Xuan Ngo
- */
-
-/*
- // OUTPUT:
-Ran Constructor.(Work Time = 477 ms)
-Ran @BeforeTest method.(Work Time = 1976 ms)
-Ran @BeforeClass method.(Work Time = 1651 ms)
-Ran @BeforeMethod method.(Work Time = 671 ms)
-Ran @Test method.(Work Time = 236 ms)
-Ran @AfterMethod method.(Work Time = 1403 ms)
-Ran @AfterClass method.(Work Time = 979 ms)
-Ran @AfterTest method.(Work Time = 964 ms)
- */
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
