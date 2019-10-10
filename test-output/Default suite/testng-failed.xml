@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="net.openwritings.testng.TestngHelloWorld">
+      <class name="net.openwritings.testng.TestException">
         <methods>
-          <include name="testAssertFalseNegative"/>
-          <include name="testAssertEqualsNegative"/>
+          <include name="testException"/>
         </methods>
-      </class> <!-- net.openwritings.testng.TestngHelloWorld -->
+      </class> <!-- net.openwritings.testng.TestException -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
